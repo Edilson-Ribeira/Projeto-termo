@@ -1,0 +1,23 @@
+.principal {
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    justify-content: center;
+    text-align: center;
+    color: red;  
+}
+
+table{
+    padding-left: -10px;
+    padding-right: px;
+}

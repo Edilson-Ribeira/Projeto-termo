@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Laudo Técnico de Equipamentos de Informática</h1>
+        <p id="subtitulo">Preencha todas as informações do usuário e do equipamento</p>
+        <br>
+    </div>
+    
+    <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="Nome completo do colaborador">Nome completo do colaborador:</label>
+                    <input type="texto" name="nome" id="nome" required></input>
+                </div>
+    
+                <div>
+                    <label for="Data de atendimento">Data de atendimento:</label>
+                    <input type="text" data="Data" id="data" required>
+                </div>
+            
+    
+            <div>
+                <label>Email do colaborador:</label>
+                <input type="email" name="email" id="email" required>
+            </div>   
+    
+            <div>
+                <label>Número do chamado:</label>
+                <input type="text" name="número" id="número" required>
+            </div>
+    
+        </fieldset>
+        </div>
+        <fieldset  class="grupo">       
+             <Label>Tipo de Maquina:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="" required>Selecione </option>
+                <option>HaaS</option>
+                <option>Legado</option>
+                <option>Alugada</option>
+             </select>  
+             <fildset class="grupo">
+    
+        <div>
+            <label>Queixa/Reclamação:</label>
+            <input type="text" name="Queixa/Reclamação" id="Queixa/Reclamação" required>
+        </div>
+    
+        <div>
+            <label required>Selecione o tipo do equipamento:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Desktop">
+            <label for="Equipamento1">Desktop</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Notebook">
+            <label for="Equipamento1">Notebook</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Outros">
+            <label for="Equipamento1">Outros</label>
+        </div>    
+    
+        <div>
+            <label required>Marca do equipamento:</label><br> 
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Dell</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="HP">
+            <label for="Equipamento1">HP</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="MAC">
+            <label for="Equipamento1">MAC</label>
+        </div>
+    
+        <div>
+            <label required>Número de Série:</label>
+            <input type="text" name="número" id="número">
+        </div> 
+    
+        <div>
+            <label required>Número do Patrimônio:</label>
+            <input type="text" name="número" id="número">
+        </div>
+    
+        <Label required>Processador:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>I3</option>
+                <option>I5</option>
+                <option>I7</option>
+             </select>   
+    
+        <Label required>HD:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>HD 500</option>
+                <option>SSD 256</option>
+                <option>SSD 512</option>
+             </select>  
+    
+         <Label required>RAM:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>8G</option>
+                <option>16G</option>
+                <option>32G</option>
+             </select> 
+    
+         <div>
+            <label required>Versão da Build:</label>
+            <input type="text" name="número" id="número">
+        </div>
+    
+        <fildset  class="grupo"> 
+            <Label >Versão do Windows:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Windows 7</option>
+                <option>Windows 10</option>
+                </select>
+            </fildset> 
+        </fieldset>
+         <div>
+            <h1>Testes de componentes</h1>
+            <br>
+         </div>
+        <fieldset  class="grupo">
+         <Label>Placa Mãe:</Label><br><br>
+            <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Ok</option>
+                <option>Defeito</option>
+                <option>N/A</option>
+            </select>  
+    
+         <Label>Processador:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Ok</option>
+                <option>Defeito</option>
+                <option>N/A</option>
+             </select>   
+    
+         <Label>Memória:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Ok</option>
+                <option>Defeito</option>
+                <option>N/A</option>
+             </select>   
+             <br>
+    
+        <Label>Bateria interna:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Ok</option>
+                <option>Defeito</option>
+                <option>N/A</option>
+             </select>  
+                             
+         <Label>Carregador laptop:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Ok</option>
+                <option>Defeito</option>
+                <option>N/A</option>
+             </select>
+    
+        <Label>Fonte Desktop:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Ok</option>
+                <option>Defeito</option>
+                <option>N/A</option>
+             </select> 
+             <br>  
+    
+        <Label>HD:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Ok</option>
+                <option>Defeito</option>
+                <option>N/A</option>
+             </select>
+    
+        <Label>Placa de Vídeo:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Ok</option>
+                <option>Defeito</option>
+                <option>N/A</option>
+             </select>  
+    
+        <Label>Ventilador:</Label>
+             <select id="Tipo de Máquina">
+                <option selected disabLed volue="">Selecione</option>
+                <option>Ok</option>
+                <option>Defeito</option>
+                <option>N/A</option>
+             </select>
+        </fieldset>
+             <div>
+                <h1>Testes do Sistema</h1>
+                <br>
+             </div>
+        <fieldset>
+    
+             <div>
+        <label>Tela azul constante:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+         <label>Lentidão do Windows:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Não</label>
+            <br>
+    
+        <label>Outra lentidão:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">        
+            <label for="Equipamento1">Não</label>
+            <br>
+    
+        <label>Erros com códigos 0x:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">        
+            <label for="Equipamento1">Não</label><br>
+            <label for="Erros com códigos 0x">Qual:_______________________</label>
+            <br>
+    
+        <label>Travamento do office:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">        
+            <label for="Equipamento1">Não</label>
+            <br>
+    
+        <label>Outros Travamentos:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">        
+            <label for="Equipamento1">Não</label>
+            <br>
+    
+        <label>Erros na inicialização?:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">        
+            <label for="Equipamento1">Não</label>
+            <label for="Erros com códigos 0x">Qual:_______________________</label>
+            <br>
+    
+        <label>Uso de Disco em 100% de forma constante:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">        
+            <label for="Equipamento1">Não</label>
+            <br>
+    
+        <label>Uso excessivo de memória:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">        
+            <label for="Equipamento1">Não</label>
+            <br>
+    
+        <label>Apps não funcionam:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">        
+            <label for="Equipamento1">Não</label>
+            <br>
+    
+        <label>Outros:</label><br>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+            <label for="Equipamento1">Sim</label>
+            <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">        
+            <label for="Equipamento1">Não</label>
+            <label for="Erros com códigos 0x">Qual:_______________________</label>
+            <br>
+        <div>
+            <h1>Identificaçaõ do Problema</h1>
+            <br>
+        </div>
+        <fieldset>
+    
+        <div>
+        <label>Hardware Queimado:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Sobrecarga Elétrica:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Desgaste Natural de uso:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>    
+             
+        <label>Impacto/Queda:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+         <label>Liquido Encontrado:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>LCD Queimado:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Componente Queimado:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Manutenção Não Autorizada:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Travamento Ventilador:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Sujeira no Teclado :</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Cabos e Conectores:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Perfil Haas Incompatível com Aplicações Necessárias:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Bateria Lítio Ruim:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+        <label>Vida Útil Comprometida:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+    
+         <label>Outros:</label><br>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Sim</label>
+             <input type="checkbox" id="Equipamento" name="Equipamento" volue="Dell">
+             <label for="Equipamento1">Não</label>
+             <br>
+             <label>Descrição do problema:</label>
+             <textarea row="10" style="width: 26em" id="Descrição do problema" name="Descrição do problema"></textarea>
+        </fieldset>
+</body>
+</html>
